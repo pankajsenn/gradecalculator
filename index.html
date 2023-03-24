@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <h1>Grading System Assignment</h1>
+    <div id="main-container">
+        <div id="left-container">
+            <h2 id="left-heading">Grading System In JS</h2>
+          <div class="sub">
+            <label for="english">English</label>
+            <input type="number" id="english" class="input"/>
+          </div>
+          <div class="sub">
+            <label for="maths">Maths</label>
+            <input type="number" id="maths"  class="input"/>
+          </div>
+          <div class="sub">
+            <label for="physics">Physics</label>
+            <input type="number" id="physics"  class="input"/>
+          </div>
+          <div class="sub">
+            <label for="chemistry">Chemistry</label>
+            <input type="number" id="chemistry"  class="input"/>
+          </div>
+          <div class="sub">
+            <label for="computer">Computer</label>
+            <input type="number" id="computer"  class="input"/>
+          </div>
+          <div id="leftbutton-div">
+            <button id="grade-cal" onclick="gradecalculator()">Calculate Grade</button>
+          </div>
+        </div>
+        <div id="right-container">
+        <div id="total-div">
+           <h2 class="right-heading">Total</h2>
+           <div id="total-ans"></div>
+        </div>
+        <div id="average-div">
+          <h2 class="right-heading">Average</h2>
+          <div id="average-ans"></div>
+        </div>
+        <div id="grade-div">
+          <h2 class="right-heading">Grade</h2>
+          <div id="grade-ans"></div>
+        </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
